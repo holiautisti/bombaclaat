@@ -41,7 +41,7 @@ a:hover {
 .clicker__function:active { 
     transition: .05s ease-in-out;
     transform: scale(107.5%);
-} 
+}
 
 .clicker__function {
     cursor: pointer;
@@ -66,3 +66,7 @@ a:hover {
     display: block;
 }
 
+img {
+    max-width: 300px;
+    max-height: 300px;
+}
