@@ -16,6 +16,11 @@ p {
 a {
     text-decoration: none;
     color: rgb(95, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+}
+a:hover {
+    text-decoration: underline;
 }
 .clicker {
     background: none;

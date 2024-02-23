@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>C# clicker</title>
+    <link rel="stylesheet" href="../assets/styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <h2>Themes:</h2>
+            <a href="../index.html">Kanna</a>
+        </div>
+        <div class="container__clicker">
+            <h1>Clicker</h1>
+                <button class="clicker">
+                    <img src="../assets/images/Csharp_Logo.png" id="btn" class="clicker__function">
+                </button>
+            <p>Clicks: <span id="display">0</span></p>
+        </div>
+    </div>
+    <style>
+        body {
+            background-color: indigo;
+        }
+    </style>
+    <script>
+        let count = 0;
+        let btn = document.getElementById("btn");
+        let display = document.getElementById("display");
+            display.innerHTML = localStorage.count
+                btn.onclick = function () {
+                    if (localStorage.count) {
+                        localStorage.count = Number(localStorage.count) + 1;
+                        display.innerHTML = localStorage.count
+                    } else {
+                        localStorage.count = 1;
+                        display.innerHTML = localStorage.count
+                    }
+                }; 
+    </script>
+</body>
+</html>
