@@ -13,26 +13,25 @@
                 <img src="./assets/anime-miss-kobayashi-s-dragon-maid-kanna-kamui-wallpaper-thumb-removebg-preview.png" id="btn" class="clicker__function">
             </button>
         <p>Clicks: <span id="display">0</span></p>  
-        <p>Cps: <span id="cps">0</span></p>
+        <!-- <p>Cps: <span id="cpsElement">0</span></p> -->
         <script type="">
             let count = 0;
-            let cps = 0;
+            // var secondsSpent = 0;
+            // let cps = 0;
             let btn = document.getElementById("btn");
             let display = document.getElementById("display");
-            let cpsElement = document.getElementById("cps");
+            // let cpsElement = document.getElementById("cpsElement");
+            display.innerHTML = localStorage.count
             btn.onclick = function () {
-                count++;
-                display.innerHTML = count;
-                cps++
-            }
-            while (true) {
-                setTimeout(() => {
-                cps = 0;
-            }, 1000);
-            setTimeout(() => {
-                cpsElement.innerHTML = cps;
-            }, 200);
-            }
+                if (localStorage.count) {
+                    localStorage.count = Number(localStorage.count) + 1;
+                    display.innerHTML = localStorage.count
+                } else {
+                    localStorage.count = 1;
+                    display.innerHTML = localStorage.count
+                }
+            }; 
+
         </script>
     </div>
 </body>
