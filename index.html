@@ -3,18 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>kokotek</title>
-    <link rel="stylesheet" href="./styles/main.css">
+    <title>Kanna Clicker</title>
+    <link rel="stylesheet" href="./assets/styles/main.css">
 </head>
 <body>
     <div class="container">
+        <div class="menu">
+            <h2>Themes:</h2>
+            <a href="./themes/themec#.html">C# Theme</a>
+        </div>
+    <div class="container__clicker">
         <h1>Clicker</h1>
             <button class="clicker">
-                <img src="./assets/anime-miss-kobayashi-s-dragon-maid-kanna-kamui-wallpaper-thumb-removebg-preview.png" id="btn" class="clicker__function">
+                <img src="./assets/images/anime-miss-kobayashi-s-dragon-maid-kanna-kamui-wallpaper-thumb-removebg-preview.png" id="btn" class="clicker__function">
             </button>
-        <p>Clicks: <span id="display">0</span></p>  
+        <p>Clicks: <span id="display">0</span></p>
+    </div>
         <!-- <p>Cps: <span id="cpsElement">0</span></p> -->
         <script type="">
+            function Clicking() {
             let count = 0;
             // var secondsSpent = 0;
             // let cps = 0;
@@ -31,8 +38,14 @@
                     display.innerHTML = localStorage.count
                 }
             }; 
-
+        }
+        Clicking();
         </script>
     </div>
+     <style>
+        body{
+            background-color: blueviolet;
+        }   
+     </style>
 </body>
 </html>
