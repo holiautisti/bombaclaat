@@ -3,9 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>kokotek</title>
+    <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body>
-    <p>kokotek</p>
+    <div class="container">
+        <h1>Clicker</h1>
+            <button id="btn" class="clicker">
+                <img src="./assets/anime-miss-kobayashi-s-dragon-maid-kanna-kamui-wallpaper-thumb-removebg-preview.png">
+            </button>
+        <p>Clicks: <span id="display">0</span></p>  
+        <p>Cps: </p>
+        <script type="">
+            let count = 0;
+            let btn = document.getElementById("btn");
+            let display = document.getElementById("display");
+ 
+            btn.onclick = function () {
+                count++;
+                display.innerHTML = count;
+            }
+
+        </script>
+    </div>
 </body>
 </html>
