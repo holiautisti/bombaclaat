@@ -13,16 +13,17 @@ p {
     margin: 0;
     font-size: 24px;
     position: absolute;
-    bottom: 15%;
+    bottom: 45%;
     right: 0;
     left: 0;
 }
 
 a {
     text-decoration: none;
-    color: rgb(95, 0, 0);
+    color:fuchsia;
     font-weight: bold;
     font-size: 20px;
+    display: block;
 }
 a:hover {
     text-decoration: underline;
@@ -65,8 +66,3 @@ a:hover {
     display: block;
 }
 
-.clicker__absoluted {
-    position: absolute;
-    top: 30%;
-    right: 43%;
-}
