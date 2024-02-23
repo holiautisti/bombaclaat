@@ -1,4 +1,4 @@
-body {
+body{
     background-color: blueviolet;
 }
 
@@ -20,8 +20,7 @@ p {
 .clicker {
     background: none;
     border: none;
-    cursor: pointer;
-    
+    margin-bottom: 1em;
 }
 
 .container {
@@ -30,7 +29,11 @@ p {
     flex-direction: column;
 }
 
-button:active { 
+.clicker__function:active { 
     transition: .05s ease-in-out;
     transform: scale(105%);
 } 
+
+.clicker__function {
+    cursor: pointer;
+}
