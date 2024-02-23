@@ -8,7 +8,7 @@ h1 {
     text-align: center;
 }
 
-p {
+.container__clicker > p {
     text-align: center;
     margin: 0;
     font-size: 24px;
@@ -16,6 +16,7 @@ p {
     bottom: 45%;
     right: 0;
     left: 0;
+    text-shadow: 0 0 4px purple;
 }
 
 a {
@@ -49,10 +50,15 @@ a:hover {
 
 .menu {
     display: block;
-    max-width: 200px;
+    max-width: 250px;
     position: absolute;
-    left: 2%;
-    top: 1%;
+    left: 1%;
+    top: 2%;
+    background-color: rgb(109, 109, 109);
+    border-radius: 15%;
+    padding: 1em;
+    padding-top: 0;
+    box-shadow: 0 0 4px 2px black;
 }
 
 .container__clicker {
@@ -69,4 +75,16 @@ a:hover {
 img {
     max-width: 300px;
     max-height: 300px;
+}
+
+.footer {
+    position: absolute;
+    right: 1%;
+    bottom: 0;
+}
+
+.footer > p {
+    font-size: 16px;
+    font-variant: small-caps;
+    color: chartreuse;
 }
