@@ -19,7 +19,7 @@ h1 {
     text-shadow: 0 0 4px purple;
 }
 
-a {
+.menu > a {
     text-decoration: none;
     color:fuchsia;
     font-weight: bold;
@@ -84,15 +84,16 @@ img {
     right: 0;
     background-color: rgb(109, 109, 109);
     height: 50px;
-    width: 100%;
-    box-shadow: 0 0 4px 2px black;
+    width: 100%;    
 }
 
-.footer > p {
+.footer > a {
     font-size: 16px;
     font-variant: small-caps;
     color: chartreuse;
     position: absolute;
-    right: 1%;
-    bottom: 1%;
+    text-decoration: none;
+    right: 15px;
+    bottom: 15px
+
 }
