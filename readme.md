@@ -1,5 +1,9 @@
-_[Chlebuv clicker](http://chlebovy.kundy.cloud/)_
+# __[Chlebuv clicker](http://chlebovy.kundy.cloud/)__
 
-*special thanks: holiatuisti members*
+- ***special thanks: holiatuisti members***
 
-![pray](https://i.pinimg.com/564x/bf/3b/38/bf3b389bc0add61309b7cd47aa3b0a45.jpg)
+<p align="center">
+
+    <img width="400" src="https://i.pinimg.com/564x/bf/3b/38/bf3b389bc0add61309b7cd47aa3b0a45.jpg" alt="Material Bread logo">
+
+</p>
