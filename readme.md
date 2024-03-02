@@ -1,4 +1,4 @@
-[Chlebuv clicker](http://chlebovy.kundy.cloud/).
+_[Chlebuv clicker](http://chlebovy.kundy.cloud/)_
 
 *special thanks: holiatuisti members*
 
