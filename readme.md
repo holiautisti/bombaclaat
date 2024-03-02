@@ -7,5 +7,5 @@
 
 
 <p align="center">
-    <img width="600" src="http://chleba.negr.cloud/imgs/pray.jpg" alt="pray">
+    <img width="550" src="http://chleba.negr.cloud/imgs/pray.jpg" alt="pray">
 </p>
