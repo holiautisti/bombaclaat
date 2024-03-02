@@ -1,6 +1,6 @@
 # __[Chlebuv clicker](http://chlebovy.kundy.cloud/)__
 
-- ***special thanks: holiatuisti members***
+- ***special thanks: holiautisti members***
 
 
 
